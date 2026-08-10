@@ -133,13 +133,42 @@ demo_note: "Representative demo content only"
 """
 
 
+def instrument_sans_font() -> dict[str, Any]:
+    latin = "https://synd.io/wp-content/cache/fonts/1/google-fonts/fonts/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0SZe1Q.woff2"
+    return {
+        "id": "syndio-instrument-sans",
+        "custom": True,
+        "fontFamily": "Instrument Sans",
+        "fontFaces": [
+            {"weight": 400, "sources": [{"url": latin, "format": "woff2"}]},
+            {"weight": 500, "sources": [{"url": latin, "format": "woff2"}]},
+            {"weight": 600, "sources": [{"url": latin, "format": "woff2"}]},
+            {"weight": 700, "sources": [{"url": latin, "format": "woff2"}]},
+        ],
+    }
+
+
+def dm_mono_font() -> dict[str, Any]:
+    light = "https://synd.io/wp-content/cache/fonts/1/google-fonts/fonts/s/dmmono/v16/aFTR7PB1QTsUX8KYvrGyEYOtbQ.woff2"
+    regular = "https://synd.io/wp-content/cache/fonts/1/google-fonts/fonts/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBA.woff2"
+    return {
+        "id": "syndio-dm-mono",
+        "custom": True,
+        "fontFamily": "DM Mono",
+        "fontFaces": [
+            {"weight": 300, "sources": [{"url": light, "format": "woff2"}]},
+            {"weight": 400, "sources": [{"url": regular, "format": "woff2"}]},
+        ],
+    }
+
+
 def wordmark_svg(fill: str, subtitle: str = "") -> str:
     sub = f'<text x="14" y="52" fill="{fill}" opacity="0.72" font-family="Arial, Helvetica, sans-serif" font-size="13">{subtitle}</text>' if subtitle else ""
     return f"""
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="64" viewBox="0 0 300 64" role="img" aria-labelledby="title">
   <title id="title">Syndio Knowledge Base</title>
   <rect width="300" height="64" rx="14" fill="none"/>
-  <text x="10" y="41" fill="{fill}" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="800" letter-spacing="1">SYNDIO</text>
+  <text x="10" y="41" fill="{fill}" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="43" font-weight="800" letter-spacing="1">SYNDIO</text>
   <circle cx="207" cy="27" r="7" fill="#01AB01"/>
   {sub}
 </svg>
@@ -162,14 +191,14 @@ def cover_svg() -> str:
   <path d="M116 545C262 346 462 277 706 338c259 65 408 10 538-146 61-73 121-114 203-129" fill="none" stroke="#01AB01" stroke-width="28" stroke-linecap="round" opacity=".82"/>
   <g transform="translate(130 122)">
     <rect width="590" height="370" rx="32" fill="#1F1E1D" opacity=".92"/>
-    <text x="54" y="94" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800">Every pay decision,</text>
-    <text x="54" y="150" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800">guided.</text>
-    <text x="56" y="213" fill="#D8F4F6" font-family="Arial, Helvetica, sans-serif" font-size="23">Customer knowledge for pay equity,</text>
-    <text x="56" y="248" fill="#D8F4F6" font-family="Arial, Helvetica, sans-serif" font-size="23">decision governance, AI, and trust.</text>
+    <text x="54" y="94" fill="#FFFFFF" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="48" font-weight="800">Every pay decision,</text>
+    <text x="54" y="150" fill="#FFFFFF" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="48" font-weight="800">guided.</text>
+    <text x="56" y="213" fill="#D8F4F6" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="23">Customer knowledge for pay equity,</text>
+    <text x="56" y="248" fill="#D8F4F6" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="23">decision governance, AI, and trust.</text>
     <rect x="56" y="298" width="172" height="46" rx="23" fill="#01AB01"/>
     <rect x="250" y="298" width="190" height="46" rx="23" fill="#D8F4F6"/>
-    <text x="86" y="327" fill="#102020" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Start here</text>
-    <text x="283" y="327" fill="#015559" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Search answers</text>
+    <text x="86" y="327" fill="#102020" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Start here</text>
+    <text x="283" y="327" fill="#015559" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Search answers</text>
   </g>
   <g transform="translate(860 140)">
     <rect width="520" height="390" rx="34" fill="#FFFFFF" opacity=".96"/>
@@ -862,17 +891,17 @@ def customization_payload(created: dict[str, Any], share_url: str) -> dict[str, 
         "internationalization": {"locale": "en"},
         "styling": {
             "theme": "clean",
-            "primaryColor": {"light": "#008489", "dark": "#66D9DE"},
-            "infoColor": {"light": "#015559", "dark": "#66D9DE"},
+            "primaryColor": {"light": "#01AB01", "dark": "#5BEB5B"},
+            "infoColor": {"light": "#008489", "dark": "#66D9DE"},
             "successColor": {"light": "#01AB01", "dark": "#5BEB5B"},
             "warningColor": {"light": "#DD6420", "dark": "#FFAD7A"},
             "dangerColor": {"light": "#B42318", "dark": "#F97066"},
-            "tint": {"color": {"light": "#D8F4F6", "dark": "#102020"}},
+            "tint": {"color": {"light": "#D8F4F6", "dark": "#1F1E1D"}},
             "corners": "rounded",
             "depth": "flat",
             "links": "accent",
-            "font": "Inter",
-            "monospaceFont": "IBMPlexMono",
+            "font": instrument_sans_font(),
+            "monospaceFont": dm_mono_font(),
             "icons": "regular",
             "background": "plain",
             "sidebar": {"background": "filled", "list": "line"},
