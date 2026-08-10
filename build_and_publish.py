@@ -151,37 +151,31 @@ def cover_svg() -> str:
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
   <title id="title">Syndio knowledge base cover</title>
   <desc id="desc">A pay decision knowledge base with equity, decision, trust, and AI guidance cards.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#015559"/>
-      <stop offset="0.54" stop-color="#008489"/>
-      <stop offset="1" stop-color="#D8F4F6"/>
-    </linearGradient>
-  </defs>
-  <rect width="1600" height="720" fill="url(#bg)"/>
-  <path d="M116 545C262 346 462 277 706 338c259 65 408 10 538-146 61-73 121-114 203-129" fill="none" stroke="#01AB01" stroke-width="28" stroke-linecap="round" opacity=".82"/>
+  <rect width="1600" height="720" fill="#020000"/>
+  <path d="M116 545C262 346 462 277 706 338c259 65 408 10 538-146 61-73 121-114 203-129" fill="none" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round" opacity=".22"/>
+  <path d="M128 562C276 385 462 331 700 388c248 60 410 20 551-126" fill="none" stroke="#01AB01" stroke-width="10" stroke-linecap="round" opacity=".95"/>
   <g transform="translate(130 122)">
-    <rect width="590" height="370" rx="32" fill="#1F1E1D" opacity=".92"/>
+    <rect width="590" height="370" rx="32" fill="#111111" stroke="#FFFFFF" stroke-opacity=".16"/>
     <text x="54" y="94" fill="#FFFFFF" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="48" font-weight="800">Every pay decision,</text>
     <text x="54" y="150" fill="#FFFFFF" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="48" font-weight="800">guided.</text>
-    <text x="56" y="213" fill="#D8F4F6" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="23">Customer knowledge for pay equity,</text>
-    <text x="56" y="248" fill="#D8F4F6" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="23">decision governance, AI, and trust.</text>
+    <text x="56" y="213" fill="#FFFFFF" opacity=".78" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="23">Customer knowledge for pay equity,</text>
+    <text x="56" y="248" fill="#FFFFFF" opacity=".78" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="23">decision governance, AI, and trust.</text>
     <rect x="56" y="298" width="172" height="46" rx="23" fill="#01AB01"/>
-    <rect x="250" y="298" width="190" height="46" rx="23" fill="#D8F4F6"/>
+    <rect x="250" y="298" width="190" height="46" rx="23" fill="#FFFFFF"/>
     <text x="86" y="327" fill="#102020" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Start here</text>
-    <text x="283" y="327" fill="#015559" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Search answers</text>
+    <text x="283" y="327" fill="#020000" font-family="Instrument Sans, Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Search answers</text>
   </g>
   <g transform="translate(860 140)">
-    <rect width="520" height="390" rx="34" fill="#FFFFFF" opacity=".96"/>
-    <rect x="46" y="46" width="250" height="18" rx="9" fill="#015559"/>
-    <rect x="46" y="88" width="420" height="12" rx="6" fill="#D8F4F6"/>
-    <rect x="46" y="126" width="350" height="12" rx="6" fill="#D8F4F6"/>
-    <rect x="46" y="188" width="124" height="112" rx="20" fill="#EFFAFB"/>
-    <rect x="198" y="188" width="124" height="112" rx="20" fill="#F4FFF4"/>
-    <rect x="350" y="188" width="124" height="112" rx="20" fill="#F6F5FF"/>
-    <circle cx="108" cy="238" r="21" fill="#008489"/>
+    <rect width="520" height="390" rx="34" fill="#FFFFFF"/>
+    <rect x="46" y="46" width="250" height="18" rx="9" fill="#020000"/>
+    <rect x="46" y="88" width="420" height="12" rx="6" fill="#E6E6E6"/>
+    <rect x="46" y="126" width="350" height="12" rx="6" fill="#E6E6E6"/>
+    <rect x="46" y="188" width="124" height="112" rx="20" fill="#FAFAFA" stroke="#E6E6E6"/>
+    <rect x="198" y="188" width="124" height="112" rx="20" fill="#FAFAFA" stroke="#E6E6E6"/>
+    <rect x="350" y="188" width="124" height="112" rx="20" fill="#FAFAFA" stroke="#E6E6E6"/>
+    <circle cx="108" cy="238" r="21" fill="#020000"/>
     <circle cx="260" cy="238" r="21" fill="#01AB01"/>
-    <circle cx="412" cy="238" r="21" fill="#260E3C"/>
+    <circle cx="412" cy="238" r="21" fill="#020000"/>
   </g>
 </svg>
 """
@@ -862,12 +856,12 @@ def customization_payload(created: dict[str, Any], share_url: str) -> dict[str, 
         "internationalization": {"locale": "en"},
         "styling": {
             "theme": "clean",
-            "primaryColor": {"light": "#01AB01", "dark": "#5BEB5B"},
-            "infoColor": {"light": "#008489", "dark": "#66D9DE"},
+            "primaryColor": {"light": "#020000", "dark": "#FFFFFF"},
+            "infoColor": {"light": "#1F1E1D", "dark": "#FFFFFF"},
             "successColor": {"light": "#01AB01", "dark": "#5BEB5B"},
             "warningColor": {"light": "#DD6420", "dark": "#FFAD7A"},
             "dangerColor": {"light": "#B42318", "dark": "#F97066"},
-            "tint": {"color": {"light": "#D8F4F6", "dark": "#1F1E1D"}},
+            "tint": {"color": {"light": "#FFFFFF", "dark": "#1F1E1D"}},
             "corners": "rounded",
             "depth": "flat",
             "links": "accent",
