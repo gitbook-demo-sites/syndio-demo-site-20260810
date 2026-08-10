@@ -30,10 +30,10 @@ This is first-draft demo content extrapolated from Syndio's public marketing sit
 {% endhint %}
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
-<tr><td><h3><i class="fa-rocket"></i></h3></td><td><strong>Start here</strong></td><td>Set up access, invite teams, and prepare the data foundation for your first pay equity review.</td><td><a href="https://app.gitbook.com/s/XSPACE_HELP/getting-started">Start here</a></td></tr>
-<tr><td><h3><i class="fa-scale-balanced"></i></h3></td><td><strong>Pay equity foundation</strong></td><td>Run analysis, review drivers, and prepare defensible reporting workflows for global teams.</td><td><a href="https://app.gitbook.com/s/XSPACE_HELP/essentials/pay-equity-analysis">Pay equity foundation</a></td></tr>
-<tr><td><h3><i class="fa-route"></i></h3></td><td><strong>Govern pay decisions</strong></td><td>Guide offers, promotions, merit changes, and transfers before decisions create downstream risk.</td><td><a href="https://app.gitbook.com/s/XSPACE_HELP/decisions/offer-governance">Govern pay decisions</a></td></tr>
-<tr><td><h3><i class="fa-shield-check"></i></h3></td><td><strong>Trust & releases</strong></td><td>Security, compliance, transparency readiness, AI governance, and product update notes.</td><td><a href="https://app.gitbook.com/s/XSPACE_TRUST/">Trust & releases</a></td></tr>
+<tr><td><h3><i class="fa-rocket"></i></h3></td><td><strong>Start here</strong></td><td>Set up access, invite teams, and prepare the data foundation for your first pay equity review.</td><td><a href="https://app.gitbook.com/s/eIJuMsTmDLvQDDCTnWys/getting-started">Start here</a></td></tr>
+<tr><td><h3><i class="fa-scale-balanced"></i></h3></td><td><strong>Pay equity foundation</strong></td><td>Run analysis, review drivers, and prepare defensible reporting workflows for global teams.</td><td><a href="https://app.gitbook.com/s/eIJuMsTmDLvQDDCTnWys/essentials/pay-equity-analysis">Pay equity foundation</a></td></tr>
+<tr><td><h3><i class="fa-route"></i></h3></td><td><strong>Govern pay decisions</strong></td><td>Guide offers, promotions, merit changes, and transfers before decisions create downstream risk.</td><td><a href="https://app.gitbook.com/s/eIJuMsTmDLvQDDCTnWys/decisions/offer-governance">Govern pay decisions</a></td></tr>
+<tr><td><h3><i class="fa-shield-check"></i></h3></td><td><strong>Trust & releases</strong></td><td>Security, compliance, transparency readiness, AI governance, and product update notes.</td><td><a href="https://app.gitbook.com/s/VmxTmVYBHcG2BxOmGbX8/">Trust & releases</a></td></tr>
 </tbody></table>
 
 {% columns %}
