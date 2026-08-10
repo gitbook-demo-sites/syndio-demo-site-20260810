@@ -1,0 +1,244 @@
+{
+  "updatedAt": "2026-08-10T11:35:49.000Z",
+  "title": "Syndio Knowledge Base",
+  "localizedTitle": {},
+  "internationalization": {
+    "locale": "en"
+  },
+  "styling": {
+    "theme": "clean",
+    "primaryColor": {
+      "dark": "#66D9DE",
+      "light": "#008489"
+    },
+    "infoColor": {
+      "dark": "#66D9DE",
+      "light": "#015559"
+    },
+    "successColor": {
+      "dark": "#5BEB5B",
+      "light": "#01AB01"
+    },
+    "warningColor": {
+      "dark": "#FFAD7A",
+      "light": "#DD6420"
+    },
+    "dangerColor": {
+      "dark": "#F97066",
+      "light": "#B42318"
+    },
+    "tint": {
+      "color": {
+        "dark": "#102020",
+        "light": "#D8F4F6"
+      }
+    },
+    "corners": "rounded",
+    "depth": "flat",
+    "links": "accent",
+    "font": "Inter",
+    "monospaceFont": "IBMPlexMono",
+    "icons": "regular",
+    "background": "plain",
+    "sidebar": {
+      "background": "filled",
+      "list": "line"
+    },
+    "codeTheme": {
+      "default": {
+        "light": "default-light",
+        "dark": "default-dark"
+      },
+      "openapi": {
+        "light": "default-light",
+        "dark": "default-dark"
+      }
+    },
+    "search": "prominent"
+  },
+  "favicon": {
+    "icon": {
+      "light": "https://synd.io/wp-content/uploads/2026/05/cropped-ms-icon-310x310-1-32x32.png",
+      "dark": "https://synd.io/wp-content/uploads/2026/05/cropped-ms-icon-310x310-1-32x32.png"
+    }
+  },
+  "header": {
+    "preset": "default",
+    "logo": {
+      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/syndio-demo-site-20260810/main/assets/syndio-wordmark-dark.svg",
+      "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/syndio-demo-site-20260810/main/assets/syndio-wordmark-light.svg"
+    },
+    "links": [
+      {
+        "to": {
+          "kind": "space",
+          "space": "eIJuMsTmDLvQDDCTnWys"
+        },
+        "links": [],
+        "style": "link",
+        "title": "Platform Help",
+        "localizedTitle": {}
+      },
+      {
+        "to": {
+          "kind": "space",
+          "space": "VmxTmVYBHcG2BxOmGbX8"
+        },
+        "links": [],
+        "style": "link",
+        "title": "Trust & Releases",
+        "localizedTitle": {}
+      },
+      {
+        "to": {
+          "url": "https://synd.io/",
+          "kind": "url"
+        },
+        "links": [],
+        "style": "link",
+        "title": "Syndio",
+        "localizedTitle": {}
+      },
+      {
+        "to": {
+          "url": "https://auth.synd.io",
+          "kind": "url"
+        },
+        "links": [],
+        "style": "button-primary",
+        "title": "Login",
+        "localizedTitle": {}
+      }
+    ]
+  },
+  "announcement": {
+    "enabled": true,
+    "message": "First-draft Syndio knowledge-base demo with representative content.",
+    "style": "info"
+  },
+  "footer": {
+    "logo": {
+      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/syndio-demo-site-20260810/main/assets/syndio-wordmark-dark.svg",
+      "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/syndio-demo-site-20260810/main/assets/syndio-wordmark-light.svg"
+    },
+    "groups": [
+      {
+        "links": [
+          {
+            "to": {
+              "kind": "space",
+              "space": "UyegVbXDITQGgy6vHnB3"
+            },
+            "title": "Home",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "kind": "space",
+              "space": "eIJuMsTmDLvQDDCTnWys"
+            },
+            "title": "Platform Help",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "kind": "space",
+              "space": "VmxTmVYBHcG2BxOmGbX8"
+            },
+            "title": "Trust & Releases",
+            "localizedTitle": {}
+          }
+        ],
+        "title": "Demo sections",
+        "localizedTitle": {}
+      },
+      {
+        "links": [
+          {
+            "to": {
+              "url": "https://synd.io/",
+              "kind": "url"
+            },
+            "title": "Syndio homepage",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://auth.synd.io",
+              "kind": "url"
+            },
+            "title": "Syndio login",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://github.com/gitbook-demo-sites/syndio-demo-site-20260810",
+              "kind": "url"
+            },
+            "title": "Source repo",
+            "localizedTitle": {}
+          }
+        ],
+        "title": "Sources",
+        "localizedTitle": {}
+      }
+    ],
+    "copyright": "Syndio Knowledge Base demo - representative content for GitBook review."
+  },
+  "themes": {
+    "default": "light",
+    "toggeable": true
+  },
+  "trademark": {
+    "enabled": true
+  },
+  "feedback": {
+    "enabled": true
+  },
+  "ai": {
+    "mode": "assistant",
+    "suggestions": [
+      "How do I prepare data for pay equity analysis?",
+      "How should a talent partner review offer guidance?",
+      "What does Syndi AI explain and what needs human review?",
+      "How do we prepare for pay transparency reporting?"
+    ]
+  },
+  "advancedCustomization": {
+    "enabled": true
+  },
+  "pageActions": {
+    "items": [
+      "assistant",
+      "markdown",
+      "external-ai",
+      "mcp",
+      "pdf"
+    ]
+  },
+  "pagination": {
+    "enabled": true
+  },
+  "privacyPolicy": {
+    "url": "https://synd.io/privacy-policy/"
+  },
+  "socialPreview": {
+    "url": "https://raw.githubusercontent.com/gitbook-demo-sites/syndio-demo-site-20260810/main/assets/syndio-cover.svg"
+  },
+  "socialAccounts": [
+    {
+      "handle": "company/syndio",
+      "display": {
+        "footer": true,
+        "header": false
+      },
+      "platform": "linkedin"
+    }
+  ],
+  "externalLinks": {
+    "target": "blank"
+  },
+  "insights": {
+    "trackingCookie": true
+  }
+}

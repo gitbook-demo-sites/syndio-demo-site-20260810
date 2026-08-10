@@ -1,0 +1,17 @@
+{
+  "HOME": {
+    "status": 204,
+    "space": "UyegVbXDITQGgy6vHnB3",
+    "folder": "home"
+  },
+  "HELP": {
+    "status": 204,
+    "space": "eIJuMsTmDLvQDDCTnWys",
+    "folder": "platform-help"
+  },
+  "TRUST": {
+    "status": 204,
+    "space": "VmxTmVYBHcG2BxOmGbX8",
+    "folder": "trust-releases"
+  }
+}

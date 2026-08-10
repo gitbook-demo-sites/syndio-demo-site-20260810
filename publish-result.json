@@ -1,0 +1,113 @@
+{
+  "publish_status": 200,
+  "publish": {
+    "object": "site",
+    "id": "site_KxngH",
+    "type": "ultimate",
+    "appliedType": "ultimate",
+    "title": "Syndio Knowledge Base",
+    "icon": {
+      "icon": {
+        "dark": "https://www.google.com/s2/favicons?domain=gitbook.io&sz=256",
+        "light": "https://www.google.com/s2/favicons?domain=gitbook.io&sz=256"
+      }
+    },
+    "basename": "syndio-knowledge-base",
+    "visibility": "share-link",
+    "defaultLevel": null,
+    "permissions": {
+      "view": true,
+      "access": true,
+      "admin": true,
+      "installIntegration": true,
+      "viewAdaptiveSchema": true,
+      "editAdaptiveSchema": true
+    },
+    "published": true,
+    "createdAt": "2026-08-10T11:34:30.000Z",
+    "siteSpaces": 3,
+    "features": [
+      {
+        "id": "sites-share-links",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-ai-assistant",
+        "plan": "ultimate",
+        "frozen": false
+      },
+      {
+        "id": "sites-pdf-export",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-page-feedback",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-sections",
+        "plan": "ultimate",
+        "frozen": false
+      }
+    ],
+    "urls": {
+      "location": "/orgs/2XFwdcndEPA4ImZSPBqU/sites/site_KxngH",
+      "app": "https://app.gitbook.com/o/2XFwdcndEPA4ImZSPBqU/sites/site_KxngH",
+      "preview": "https://sites.gitbook.com/preview/site_KxngH/"
+    }
+  },
+  "share_status": 201,
+  "share": {
+    "object": "share-link",
+    "id": "KInnWtIfT2KnWy1z5JnS",
+    "createdAt": "2026-08-10T11:35:48.000Z",
+    "name": "Syndio demo review",
+    "active": true,
+    "urls": {
+      "published": "https://syndio.gitbook.io/syndio-knowledge-base/KInnWtIfT2KnWy1z5JnS/"
+    }
+  },
+  "published_url": "https://syndio.gitbook.io/syndio-knowledge-base/KInnWtIfT2KnWy1z5JnS/",
+  "app_url": "https://app.gitbook.com/o/2XFwdcndEPA4ImZSPBqU/sites/site_KxngH",
+  "preview_url": "https://sites.gitbook.com/preview/site_KxngH/",
+  "repo": "https://github.com/gitbook-demo-sites/syndio-demo-site-20260810",
+  "created": {
+    "org": "2XFwdcndEPA4ImZSPBqU",
+    "site": "site_KxngH",
+    "spaces": {
+      "HOME": "UyegVbXDITQGgy6vHnB3",
+      "HELP": "eIJuMsTmDLvQDDCTnWys",
+      "TRUST": "VmxTmVYBHcG2BxOmGbX8"
+    },
+    "sections": {
+      "HOME": "sitesc_6U69X",
+      "HELP": "sitesc_k3kGU",
+      "TRUST": "sitesc_C2CF6"
+    },
+    "site_spaces": {
+      "HOME": "sitesp_BQATn",
+      "HELP": "sitesp_WSpsz",
+      "TRUST": "sitesp_VaI5U"
+    }
+  },
+  "imports": {
+    "HOME": {
+      "status": 204,
+      "space": "UyegVbXDITQGgy6vHnB3",
+      "folder": "home"
+    },
+    "HELP": {
+      "status": 204,
+      "space": "eIJuMsTmDLvQDDCTnWys",
+      "folder": "platform-help"
+    },
+    "TRUST": {
+      "status": 204,
+      "space": "VmxTmVYBHcG2BxOmGbX8",
+      "folder": "trust-releases"
+    }
+  }
+}
