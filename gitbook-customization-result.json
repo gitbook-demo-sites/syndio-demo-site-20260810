@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T11:35:49.000Z",
+  "updatedAt": "2026-08-10T11:39:20.000Z",
   "title": "Syndio Knowledge Base",
   "localizedTitle": {},
   "internationalization": {
@@ -65,8 +65,8 @@
   "header": {
     "preset": "default",
     "logo": {
-      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/syndio-demo-site-20260810/main/assets/syndio-wordmark-dark.svg",
-      "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/syndio-demo-site-20260810/main/assets/syndio-wordmark-light.svg"
+      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/syndio-demo-site-20260810/main/assets/syndio-wordmark-dark.svg?v=2",
+      "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/syndio-demo-site-20260810/main/assets/syndio-wordmark-light.svg?v=2"
     },
     "links": [
       {
@@ -118,8 +118,8 @@
   },
   "footer": {
     "logo": {
-      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/syndio-demo-site-20260810/main/assets/syndio-wordmark-dark.svg",
-      "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/syndio-demo-site-20260810/main/assets/syndio-wordmark-light.svg"
+      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/syndio-demo-site-20260810/main/assets/syndio-wordmark-dark.svg?v=2",
+      "dark": "https://raw.githubusercontent.com/gitbook-demo-sites/syndio-demo-site-20260810/main/assets/syndio-wordmark-light.svg?v=2"
     },
     "groups": [
       {
