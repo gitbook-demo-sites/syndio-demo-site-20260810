@@ -30,7 +30,7 @@ SPACES = [
         "title": "Home",
         "icon": "house",
         "path": "home",
-        "description": "External knowledge-base front door, modeled after the Evolve demo.",
+        "description": "External knowledge-base front door for Syndio customers.",
     },
     {
         "key": "HELP",
@@ -134,13 +134,13 @@ demo_note: "Representative demo content only"
 
 
 def wordmark_svg(fill: str, subtitle: str = "") -> str:
-    sub = f'<text x="16" y="57" fill="{fill}" opacity="0.72" font-family="Arial, Helvetica, sans-serif" font-size="12">{subtitle}</text>' if subtitle else ""
+    sub = f'<text x="14" y="52" fill="{fill}" opacity="0.72" font-family="Arial, Helvetica, sans-serif" font-size="13">{subtitle}</text>' if subtitle else ""
     return f"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 72" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="64" viewBox="0 0 300 64" role="img" aria-labelledby="title">
   <title id="title">Syndio Knowledge Base</title>
-  <rect width="360" height="72" rx="14" fill="none"/>
-  <text x="14" y="39" fill="{fill}" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" letter-spacing="1">SYNDIO</text>
-  <circle cx="167" cy="26" r="6" fill="#01AB01"/>
+  <rect width="300" height="64" rx="14" fill="none"/>
+  <text x="10" y="41" fill="{fill}" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="800" letter-spacing="1">SYNDIO</text>
+  <circle cx="207" cy="27" r="7" fill="#01AB01"/>
   {sub}
 </svg>
 """
@@ -203,7 +203,7 @@ def scaffold() -> None:
 
     write(
         "home/README.md",
-        fm("A Syndio-styled external knowledge-base homepage modeled after the Evolve demo.", "house", wide=True, cover="../assets/syndio-cover.svg")
+        fm("A Syndio-styled external knowledge-base homepage for customer education and support.", "house", wide=True, cover="../assets/syndio-cover.svg")
         + f"""
 # Syndio Knowledge Base
 
@@ -228,9 +228,9 @@ The site is organized for compensation leaders, HR operations, talent teams, leg
 {{% endcolumn %}}
 
 {{% column width="50%" %}}
-## Modeled after Evolve
+## Built for Syndio customers
 
-The front door mirrors the Evolve-style GitBook demo pattern: branded hero, path cards, strong top navigation, AI-ready content, and a clear sign-in action in the header.
+The front door gives customers a branded hero, path cards, strong top navigation, AI-ready content, and a clear sign-in action in the header.
 {{% endcolumn %}}
 {{% endcolumns %}}
 """,
@@ -852,8 +852,8 @@ def import_spaces(created: dict[str, Any]) -> dict[str, Any]:
 
 
 def customization_payload(created: dict[str, Any], share_url: str) -> dict[str, Any]:
-    logo_light = f"{RAW}/assets/syndio-wordmark-dark.svg"
-    logo_dark = f"{RAW}/assets/syndio-wordmark-light.svg"
+    logo_light = f"{RAW}/assets/syndio-wordmark-dark.svg?v=2"
+    logo_dark = f"{RAW}/assets/syndio-wordmark-light.svg?v=2"
     cover = f"{RAW}/assets/syndio-cover.svg"
     favicon = "https://synd.io/wp-content/uploads/2026/05/cropped-ms-icon-310x310-1-32x32.png"
     return {

@@ -1,5 +1,5 @@
 ---
-description: "A Syndio-styled external knowledge-base homepage modeled after the Evolve demo."
+description: "A Syndio-styled external knowledge-base homepage for customer education and support."
 icon: house
 cover: ../assets/syndio-cover.svg
 coverY: 0
@@ -44,8 +44,8 @@ The site is organized for compensation leaders, HR operations, talent teams, leg
 {% endcolumn %}
 
 {% column width="50%" %}
-## Modeled after Evolve
+## Built for Syndio customers
 
-The front door mirrors the Evolve-style GitBook demo pattern: branded hero, path cards, strong top navigation, AI-ready content, and a clear sign-in action in the header.
+The front door gives customers a branded hero, path cards, strong top navigation, AI-ready content, and a clear sign-in action in the header.
 {% endcolumn %}
 {% endcolumns %}
