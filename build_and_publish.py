@@ -133,35 +133,6 @@ demo_note: "Representative demo content only"
 """
 
 
-def instrument_sans_font() -> dict[str, Any]:
-    latin = "https://synd.io/wp-content/cache/fonts/1/google-fonts/fonts/s/instrumentsans/v4/pxiTypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr0SZe1Q.woff2"
-    return {
-        "id": "syndio-instrument-sans",
-        "custom": True,
-        "fontFamily": "Instrument Sans",
-        "fontFaces": [
-            {"weight": 400, "sources": [{"url": latin, "format": "woff2"}]},
-            {"weight": 500, "sources": [{"url": latin, "format": "woff2"}]},
-            {"weight": 600, "sources": [{"url": latin, "format": "woff2"}]},
-            {"weight": 700, "sources": [{"url": latin, "format": "woff2"}]},
-        ],
-    }
-
-
-def dm_mono_font() -> dict[str, Any]:
-    light = "https://synd.io/wp-content/cache/fonts/1/google-fonts/fonts/s/dmmono/v16/aFTR7PB1QTsUX8KYvrGyEYOtbQ.woff2"
-    regular = "https://synd.io/wp-content/cache/fonts/1/google-fonts/fonts/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBA.woff2"
-    return {
-        "id": "syndio-dm-mono",
-        "custom": True,
-        "fontFamily": "DM Mono",
-        "fontFaces": [
-            {"weight": 300, "sources": [{"url": light, "format": "woff2"}]},
-            {"weight": 400, "sources": [{"url": regular, "format": "woff2"}]},
-        ],
-    }
-
-
 def wordmark_svg(fill: str, subtitle: str = "") -> str:
     sub = f'<text x="14" y="52" fill="{fill}" opacity="0.72" font-family="Arial, Helvetica, sans-serif" font-size="13">{subtitle}</text>' if subtitle else ""
     return f"""
@@ -900,8 +871,8 @@ def customization_payload(created: dict[str, Any], share_url: str) -> dict[str, 
             "corners": "rounded",
             "depth": "flat",
             "links": "accent",
-            "font": instrument_sans_font(),
-            "monospaceFont": dm_mono_font(),
+            "font": "ABCFavorit",
+            "monospaceFont": "DMMono",
             "icons": "regular",
             "background": "plain",
             "sidebar": {"background": "filled", "list": "line"},
