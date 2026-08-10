@@ -1,0 +1,4 @@
+support_email: support@syndio.example
+trust_center: https://trust.synd.io
+login_url: https://auth.synd.io
+demo_note: "Representative demo content only"

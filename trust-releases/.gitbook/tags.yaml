@@ -1,0 +1,15 @@
+- tag: ai
+  label: AI
+  icon: sparkles
+- tag: decisions
+  label: Decisions
+  icon: route
+- tag: data
+  label: Data
+  icon: database
+- tag: admin
+  label: Admin
+  icon: users-gear
+- tag: compliance
+  label: Compliance
+  icon: scale-balanced
