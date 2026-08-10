@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T11:48:59.000Z",
+  "updatedAt": "2026-08-10T11:52:47.000Z",
   "title": "Syndio Knowledge Base",
   "localizedTitle": {},
   "internationalization": {
@@ -8,12 +8,12 @@
   "styling": {
     "theme": "clean",
     "primaryColor": {
-      "dark": "#5BEB5B",
-      "light": "#01AB01"
+      "dark": "#FFFFFF",
+      "light": "#020000"
     },
     "infoColor": {
-      "dark": "#66D9DE",
-      "light": "#008489"
+      "dark": "#FFFFFF",
+      "light": "#1F1E1D"
     },
     "successColor": {
       "dark": "#5BEB5B",
@@ -30,7 +30,7 @@
     "tint": {
       "color": {
         "dark": "#1F1E1D",
-        "light": "#D8F4F6"
+        "light": "#FFFFFF"
       }
     },
     "corners": "rounded",

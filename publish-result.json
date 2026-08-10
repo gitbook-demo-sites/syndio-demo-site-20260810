@@ -19,5 +19,12 @@
       "HELP": "sitesp_WSpsz",
       "TRUST": "sitesp_VaI5U"
     }
+  },
+  "latest_imports": {
+    "HOME": {
+      "status": 204,
+      "space": "UyegVbXDITQGgy6vHnB3",
+      "folder": "home"
+    }
   }
 }
